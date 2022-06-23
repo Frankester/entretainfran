@@ -21,5 +21,5 @@ const BookmarkButtonStyled = styled.button`
 `
 
 export {
-    BookmarkButtonStyled
+	BookmarkButtonStyled
 }

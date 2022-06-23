@@ -38,7 +38,7 @@ const CardInfo = styled.div<CardStylesProps>`
         h4{
             font-weight: normal;
             font-size: 1.1em;
-            margin: ${({expand}) => expand ? '5px': '10px'} 0;
+            margin: ${({ expand }) => expand ? '5px': '10px'} 0;
         }
     
         p {
@@ -77,6 +77,6 @@ const CardInfo = styled.div<CardStylesProps>`
         }
 `
 export {
-    ImageContainer,
-    CardInfo
+	ImageContainer,
+	CardInfo
 }

@@ -1,4 +1,4 @@
-import styled, {createGlobalStyle} from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
 
@@ -68,6 +68,7 @@ const NavBarContainer = styled.nav`
     height: min-content;
     padding: 10px;
 
+
     @media only screen and (min-width: 768px){
         flex-direction: column;
         position: relative;
@@ -76,6 +77,9 @@ const NavBarContainer = styled.nav`
         padding: 20px;
         height: 92vh;
         width: min-content;
+
+        position: sticky;
+        top: 10px;
     }
 `
 const NavContent = styled.ul`
@@ -105,8 +109,8 @@ const NavContent = styled.ul`
 `
 
 export {
-    GlobalStyles,
-    AppStyled,
-    NavBarContainer,
-    NavContent
+	GlobalStyles,
+	AppStyled,
+	NavBarContainer,
+	NavContent
 }

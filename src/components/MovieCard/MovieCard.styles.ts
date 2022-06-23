@@ -26,5 +26,5 @@ const MovieCardStyles = styled.li<MovieCardStylesProps>`
 `
 
 export {
-    MovieCardStyles,
+	MovieCardStyles,
 }

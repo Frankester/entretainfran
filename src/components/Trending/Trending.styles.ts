@@ -12,5 +12,5 @@ const TrendingContentStyles = styled.ul`
 `
 
 export {
-    TrendingContentStyles
+	TrendingContentStyles
 }

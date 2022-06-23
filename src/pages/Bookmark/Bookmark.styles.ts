@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 const BookmarkedListStyled = styled.ul`
     display: grid;
@@ -27,6 +27,6 @@ const NotFoundLegend = styled.p`
 `
 
 export {
-    BookmarkedListStyled,
-    NotFoundLegend
+	BookmarkedListStyled,
+	NotFoundLegend
 }

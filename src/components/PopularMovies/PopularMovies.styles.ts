@@ -20,5 +20,5 @@ const PopularMoviesStyles = styled.ul`
 `
 
 export {
-    PopularMoviesStyles
+	PopularMoviesStyles
 }

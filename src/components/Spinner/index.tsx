@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 const SpinnerStyles = styled.div`
     border: 4px solid rgba(0, 0, 0, 0.1);
@@ -23,9 +23,9 @@ const SpinnerStyles = styled.div`
 
 function Spinner(){
 
-    return (
-        <SpinnerStyles />
-    )
+	return (
+		<SpinnerStyles />
+	)
 }
 
 export default Spinner

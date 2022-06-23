@@ -22,5 +22,5 @@ const ResultsContent = styled.ul`
 
 
 export {
-    ResultsContent
+	ResultsContent
 }

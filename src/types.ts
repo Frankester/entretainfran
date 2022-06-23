@@ -1,14 +1,14 @@
 
 export interface SingleMovie{
-    adult: boolean, 
-    backdrop_path: string | null, 
-    overview: string, 
-    release_date: string, 
-    id: number, 
-    original_title: string, 
-    original_language: string, 
+    adult: boolean,
+    backdrop_path: string | null,
+    overview: string,
+    release_date: string,
+    id: number,
+    original_title: string,
+    original_language: string,
     title: string,
-    popularity: number, 
+    popularity: number,
     vote_count:number,
     poster_path: string | null
 }
@@ -72,4 +72,4 @@ export interface GeneralResponse extends MoviesResponse {
 
 export interface BookmarkGeneral extends GeneralDetails{
     idUniq: number
-} 
+}

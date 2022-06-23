@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 const SearchContainer = styled.div`
     display: flex;
@@ -24,6 +24,6 @@ const SearchInput = styled.input`
 `
 
 export {
-    SearchContainer,
-    SearchInput
+	SearchContainer,
+	SearchInput
 }
